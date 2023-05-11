@@ -26,19 +26,19 @@
 * Imported pandas, numpy and set option of column width
 
 ### Extracted the crowdfunding.xlsx data 
-    * Pulled data from crowdfunding.xlsx into a dataframe **crowdfunding_info_df** and checked the first 5 entries
-    * Used .info function to print number of columns, non-null rows, and datatypes 
+* Pulled data from crowdfunding.xlsx into a dataframe **crowdfunding_info_df** and checked the first 5 entries
+* Used .info function to print number of columns, non-null rows, and datatypes 
 
 ### Created Category and SubCategory dataframes
-    * Created **category_id** column that is numbered sequential for the 9 unique categories.
-    * Created **category** column that split the category from the 'category & subcategory' column using a "/" to split on
-    * Created **subcategory_id** column that is numbered sequential for the 24 unique subcategories.
-    * Created **subcategory** column that split the subcategory from the 'category & subcategory' column using a "/" to split on
-    * Used list comprehensions to create a **category_id** list ['cat1', 'cat2', ...,  'cat9']
-    * Used list comprehensions to create a **subcategory_id** list ['subcat1', 'subcat2', ...,  'subcat24']
-    * Created **category_df**
+* Created **category_id** column that is numbered sequential for the 9 unique categories.
+* Created **category** column that split the category from the 'category & subcategory' column using a "/" to split on
+* Created **subcategory_id** column that is numbered sequential for the 24 unique subcategories.
+* Created **subcategory** column that split the subcategory from the 'category & subcategory' column using a "/" to split on
+* Used list comprehensions to create a **category_id** list ['cat1', 'cat2', ...,  'cat9']
+* Used list comprehensions to create a **subcategory_id** list ['subcat1', 'subcat2', ...,  'subcat24']
+* Created **category_df**
         * Added columns and pulled **category_id** and **category**
-    * Created **subcategory_df**
+* Created **subcategory_df**
         * Added columns and pulled **subcategory_id** and **subcategory**
-    * Printed both dataframes to csv files in the Resources folder.
-    * Pushed to git.
+* Printed both dataframes to csv files in the Resources folder.
+* Pushed to git.
