@@ -37,8 +37,8 @@
 * Used list comprehensions to create a **category_id** list ['cat1', 'cat2', ...,  'cat9']
 * Used list comprehensions to create a **subcategory_id** list ['subcat1', 'subcat2', ...,  'subcat24']
 * Created **category_df**
-        * Added columns and pulled **category_id** and **category**
+    * Added columns and pulled **category_id** and **category**
 * Created **subcategory_df**
-        * Added columns and pulled **subcategory_id** and **subcategory**
+    * Added columns and pulled **subcategory_id** and **subcategory**
 * Printed both dataframes to csv files in the Resources folder.
 * Pushed to git.
