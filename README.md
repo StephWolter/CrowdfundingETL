@@ -1,6 +1,6 @@
 # CrowdfundingETL
 
-# In a team of 4, build an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform Crowdfunding data. Create four CSV files and use the CSV file data to create an ERD and a table schema. Upload the CSV file data into a Postgres database.
+### In a team of 4, build an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform Crowdfunding data. Create four CSV files and use the CSV file data to create an ERD and a table schema. Upload the CSV file data into a Postgres database.
 
 ## SetUp
 
