@@ -84,7 +84,7 @@
 * A column named "email" that contains the email address of the contact person
 * Then export the DataFrame as a contacts.csv CSV file.
 
-Used Pandas DataFrame to create the Contacts DataFrame Option
+**Used Pandas DataFrame to create the Contacts DataFrame Option**
 
 * Iterated through the Contacts Info Dataframe
 * Delimted each row by: Contact ID, Name, & Email
