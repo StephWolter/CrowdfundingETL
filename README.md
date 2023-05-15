@@ -11,12 +11,20 @@
 
 
             * Resources                             # main folder for resources and outputs
-            * Individuals           
+                * contacts.xlsx                     # given excel data file
+                * crowdfunding.xlsx                 # given excel data file
+                * campaign.csv                      # output data
+                * category.csv                      # output data
+                * contacts.csv                      # output data
+                * subcategory.csv                   # output data
+            * Individuals                           # folder containing individual workbooks      
                 * ETL_Mini_Project_Javon.ipynb      # Javon's workbook
                 * ETL_Mini_Project_Ochirbat.ipynb   # Ochirbat's workbook
                 * ETL_Mini_Project_Samson.ipynb     # Samson's workbook
                 * ETL_Mini_Project_Stephanie.ipynb  # Stephanie's workbook
             * ETL_Mini_Project.ipynb                # Final concatanated version
+            * crowdfunding_db_erd.png               # erd visualization of schema
+            * crowdfunding_db_schema.sql            # postgres schema using output files to make db
             * ReadMe.md
 
 * Examined the brief given on the bootcampspot project 2 page and pulled starter files. 
@@ -42,6 +50,8 @@
     * Added columns and pulled **subcategory_id** and **subcategory**
 * Printed both dataframes to csv files in the Resources folder.
 * Pushed to git.
+
+## Campaign Dataframe
 
 ### Extract and transform the crowdfunding.xlsx Excel data to create a campaign DataFrame has the following columns:
 * The "cf_id" column
