@@ -69,3 +69,25 @@
 * The "category_id" column, with unique identification numbers matching those in the "category_id" column of the category DataFrame
 * The "subcategory_id" column, with the unique identification numbers matching those in the "subcategory_id" column of the subcategory DataFrame
 ### Export the campaign DataFrame as campaign.csv and save it to your GitHub repository.
+
+
+### Create the Contacts DataFrame
+
+* Read the data into from the Excel spreadheet into a Pandas DataFrame
+* Create the Contacts DataFrame
+
+## Create a Contacts DataFrame that has the following columns:
+
+* A column named "contact_id" that contains the unique number of the contact person.
+* A column named "first_name" that contains the first name of the contact person.
+* A column named "last_name" that contains the first name of the contact person.
+* A column named "email" that contains the email address of the contact person
+* Then export the DataFrame as a contacts.csv CSV file.
+
+Used Pandas DataFrame to create the Contacts DataFrame Option
+
+* Iterated through the Contacts Info Dataframe
+* Delimted each row by: Contact ID, Name, & Email
+* Split the name column by First Name and Last Name
+* Reordered the Dataframe to put ContactID, First Name, Last Name, & Email
+* Exported the Dataframe to Contacts.csv file
