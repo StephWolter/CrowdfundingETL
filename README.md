@@ -7,6 +7,9 @@
 * Create Repository in GitHub.
 [CrowdfundingETL repository](https://github.com/StephWolter/CrowdfundingETL.git)
 
+* Create presentation in Google Sheets.
+[CrowdfundingETL Presentation](https://docs.google.com/presentation/d/14R9fHIrtTUx4kIVVeg_FwxmEbdF-Q_5tn9ZLMeIHi_s/edit?usp=sharing)
+
 * All clone CrowdfundingETL repository to personal computers, then created the folder structure:
 
 
