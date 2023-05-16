@@ -55,7 +55,7 @@
 
 ### Extract and transform the crowdfunding.xlsx Excel data to create a campaign DataFrame has the following columns:
 * The "cf_id" column
-* The "contact_id" column
+* The "contact_id" column 
 * The "company_name" column
 * The "blurb" column, renamed to "description"
 * The "goal" column, converted to the float data type
@@ -91,3 +91,10 @@
 * Split the name column by First Name and Last Name
 * Reordered the Dataframe to put ContactID, First Name, Last Name, & Email
 * Exported the Dataframe to Contacts.csv file
+
+**Created sql schema in Postgres to import Contacts, Campaign, Category, and Subcategory csv files**
+
+*Created ERD to generate visual relationship for different databases
+*Schema for campaign csv was unique to include foreign keys indicating the relationship of the data from the contacts, category, and subcategory
+*Created tables for import of all csv tables
+*Imported all data into associated tables
