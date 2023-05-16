@@ -94,7 +94,7 @@
 
 **Created sql schema in Postgres to import Contacts, Campaign, Category, and Subcategory csv files**
 
-*Created ERD to generate visual relationship for different databases
-*Schema for campaign csv was unique to include foreign keys indicating the relationship of the data from the contacts, category, and subcategory
-*Created tables for import of all csv tables
-*Imported all data into associated tables
+* Created ERD to generate visual relationship for different databases
+* Schema for campaign csv was unique to include foreign keys indicating the relationship of the data from the contacts, category, and subcategory
+* Created tables for import of all csv tables
+* Imported all data into associated tables
