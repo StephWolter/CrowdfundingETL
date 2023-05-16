@@ -92,7 +92,7 @@
 * Reordered the Dataframe to put ContactID, First Name, Last Name, & Email
 * Exported the Dataframe to Contacts.csv file
 
-**Created sql schema in Postgres to import Contacts, Campaign, Category, and Subcategory csv files**
+## Created sql schema in Postgres to import Contacts, Campaign, Category, and Subcategory csv files
 
 * Created ERD to generate visual relationship for different databases
 * Schema for campaign csv was unique to include foreign keys indicating the relationship of the data from the contacts, category, and subcategory
